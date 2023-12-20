@@ -1,5 +1,13 @@
 # Playground
 This is my github play ground. 
+```mermaid
+sequenceDiagram
+    actor QA
+    participant github
+    participant jenkins
+    participant argocd
+```
+
 ``` mermaid
     gitGraph TB:
        commit id: "JIRA-1001"
