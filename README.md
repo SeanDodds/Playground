@@ -15,6 +15,16 @@ sequenceDiagram
        commit id: "JIRA-1003" tag: "Build #123, L1"
      
 ```
+```mermaid
+---
+title: Order example
+---
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
 
 ```mermaid
 requirementDiagram
